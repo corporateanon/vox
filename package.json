@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "vox-say": "vox-say.js"
+    "vox-say": "vox-say.js",
+    "vox-save": "vox-save.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,10 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "lame": "^1.2.3",
-    "mkdirp": "^0.5.1",
     "node-tts-google": "0.0.1",
     "q": "^1.4.1",
     "q-io": "^1.13.2",
+    "sha1": "^1.1.1",
     "speaker": "^0.2.6",
     "yandex-speech": "0.0.11",
     "yargs": "^3.29.0"
