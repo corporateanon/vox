@@ -5,4 +5,4 @@
 const vox = require('./vox');
 const argv = require('yargs').argv;
 
-vox.speak(argv._.join(' '));
+vox.say(argv._.join(' '));

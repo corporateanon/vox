@@ -2,7 +2,7 @@
   "name": "vox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "vox.js",
   "bin": {
     "vox-say": "vox-say.js",
     "vox-save": "vox-save.js"

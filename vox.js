@@ -14,7 +14,7 @@ const YS      = require('yandex-speech');
 
 const tts = q.nbind(YS.TTS, YS);
 
-function speak(text) {
+function say(text) {
         return getMp3File(text).then((file) => {
                 const decoder = new lame.Decoder();
                 const speaker = new Speaker();
@@ -41,5 +41,5 @@ function getMp3File(text) {
                 }).then(() => file);
 }
 
-exports.speak = speak;
+exports.say = say;
 exports.saveAsMp3 = saveAsMp3;
